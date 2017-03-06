@@ -142,10 +142,6 @@ div.mg-wrapper-minuts{
 	top: 55%;
 	margin-right: -120px;
 	margin-top: 130px;
-	-webkit-transform: rotate(-180deg);
-	-ms-transform: rotate(-180deg);
-	-o-transform: rotate(-180deg);
-	transform: rotate(-180deg);
 	color: #4033C8;
 	opacity: 0.6;
 	font-family: 'Source Sans Pro';
