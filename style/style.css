@@ -1,0 +1,460 @@
+*
+{
+	margin: 0;
+	padding: 0;
+}
+
+*, *:before, *:after
+{
+	box-sizing: border-box;
+}
+
+.clearfix:before, .clearfix:after
+{
+	content: " ";
+	display: table;
+}
+
+.clearfix:after
+{
+	clear: both;
+}
+
+
+body
+{
+	font-family: 'Source Sans Pro', sans-serif;
+}
+
+h1, h2, h3
+{
+	font-family: 'Varela', sans-serif;
+}
+
+/*---------- Programme ---------*/
+.rp-program
+{
+	clear: both;
+	margin: 0 auto 5% auto;
+	position: relative;
+	width: 90%;
+
+}
+
+.rp-horaire
+{
+	width: 20%;
+	float: left;
+	margin: 0 2.5%;
+}
+
+.rp-horaire img
+{
+	float: left;
+	width: 100%;
+}
+
+.rp-horaire h2
+{
+	margin: 5% 0 0 0;
+	float: left;
+}
+
+.rp-horaire p 
+{
+	margin: 3% 0;
+	font-size: 24px;
+	line-height: 2;
+	float: left;
+	clear: both;
+}
+
+.rp-horaire2
+{
+	margin: 10% 0 0 0;
+}
+
+.rp-design
+{
+	float: left;
+	width: 45%;
+	margin: 10%  2.5% 0 2.5%;
+}
+
+.rp-design h3
+{
+	background: #000;
+	color: #fff;
+	width: 25%;
+	padding: 1.5% 0;
+	text-align: center;
+}
+
+.rp-design h2
+{
+	margin: 2.5% 0;
+}
+
+.rp-design p
+{
+	line-height: 2;
+	font-size: 24px;
+}
+
+.rp-design button
+{
+	margin: 3% 0 0 0;
+	border: 3px solid #000;
+	padding: 1.5% 5%;
+	background: #fff;
+	font-size: 24px;
+}
+
+.rp-heure
+{
+	font-size: 120px;
+	font-weight: bold;
+}
+
+.rp-heure1
+{
+	position: absolute;
+	top: -5%;
+	left: 28%;
+}
+
+.rp-heure2
+{
+	position: absolute;
+	top: 5%;
+	left: 31%;
+}
+
+.rp-line-
+{
+	width: 5px;
+	height: 100vh;
+	background: #000;
+	float: left;
+	margin: 0 0 0 2%;
+}
+
+.rp-title
+{
+	font-size: 48px;
+	text-align: center;
+}
+
+/*--------- Ticket --------*/
+
+.rp-ticket
+{
+	background: #191919;
+}
+
+.rp-form
+{
+	width: 75%;
+	margin: 5% auto;
+}
+
+.rp-title-ticket, .rp-input
+{
+	width: 50%;
+	float: left;
+}
+
+.rp-title-ticket h2
+{
+	font-size: 110px;
+}
+
+.rp-title-ticket h2:nth-child(1)
+{
+	color: #28d85f;
+}
+
+.rp-title-ticket h2:nth-child(2)
+{
+	color: #d32727;
+}
+
+.rp-title-ticket h2:nth-child(3)
+{
+	color: #2ec7e0;
+}
+.rp-input label:first-child
+{
+	margin: 27% 0 0 0;
+}
+.rp-input label
+{
+	color: #fff;
+}
+.rp-input label, .rp-input input
+{
+	clear: both;
+	float: left;
+	margin: 1% 0;
+	font-size: 24px;
+	background: #191919;
+	border: none;
+}
+
+.rp-date
+{
+	float: left;
+	width: 15%;
+	clear:both;
+	margin: 10% 0;
+	color: #fff;
+}
+
+.rp-date h2
+{
+	font-size: 55px;
+}
+
+.rp-date p
+{
+	font-size: 30px;
+}
+
+.rp-selection
+{
+	float: left;
+	width: 85%;
+	margin: 8% 0;
+}
+
+.rp-selection hr
+{
+	position: relative;
+	top: 80px;
+	z-index: -1;
+}
+
+.rp-content
+{
+	background: #fff;
+	padding: 2.5%;
+	width: 15%;
+	float: left;
+	margin: 0 2.5%;
+}
+
+.rp-pick
+{
+	clear: both;
+}
+.rp-pick h2
+{
+	color: #fff;
+	font-size: 60px;
+}
+.rp-pick p
+{
+	margin: 10% 0;
+	color: #fff;
+	font-size: 20px;
+	float: left;
+	width: 30%;
+}
+
+.rp-pick hr
+{
+	width: 70%;
+	float: right;
+	color: #ccc;
+	margin: -3% 0 0 0;
+}
+
+.rp-checkout
+{
+	margin: 7% 0 0 0;
+	float: right;
+	width: 15%;
+}
+
+.rp-checkout button, .rp-checkout h2
+{
+	float: left;
+}
+
+.rp-checkout button:last-child
+{
+	clear: both;
+}
+
+.rp-checkout h2
+{
+	margin: -5% 0 0 0;
+}
+
+.rp-checkout button
+{
+	background: #0d0d0d;
+	border: none;
+	color: #fff;
+	padding: 5%;
+}
+
+.rp-button1
+{
+	margin: 0% 15% 0 0;
+}
+
+.rp-button2
+{
+	margin: 0 0 0 15%;
+}
+
+.rp-button3
+{
+	background: none !important;
+	border: 3px solid #28d85f !important;
+	color: #28d85f !important;
+	margin: 5% 0 0 -8%;
+	width: 100%
+}
+
+/*---------- About ---------*/
+
+.rp-about
+{
+	background: #191919;
+}
+
+.rp-about-content
+{
+	width: 80%;
+	margin: 0 auto;
+}
+
+.rp-title-about
+{
+	margin: 5% 0;
+}
+
+.rp-title-about h2
+{
+	color: #ce7133;
+	font-size: 70px;
+	letter-spacing: 10px;
+}
+
+.rp-title-about h1
+{
+	text-transform: uppercase;
+	color: #28afcf;
+	font-size: 80px;
+}
+
+.rp-absolute1
+{
+	width: 23%;
+	color: #fff;
+	position: absolute;
+	font-size: 117px;
+	letter-spacing: 10px;
+	left: 23%;
+	top: 26%;
+}
+
+.rp-text1
+{
+	color: #fff;
+	width: 40%;
+	margin: 0 0 0 40%;
+	float: left;
+	line-height: 2.5;
+	font-size: 24px;
+}
+
+.rp-text2
+{
+	color: #fff;
+	width: 40%;
+	float: left;
+	line-height: 2.5;
+	margin: 10% 0 10% 0;
+	font-size: 24px;
+}
+
+.rp-absolute2
+{
+	width: 23%;
+	color: #fff;
+	position: absolute;
+	font-size: 117px;
+	letter-spacing: 10px;
+	right: 19%;
+	top: 75%;
+}
+
+.rp-number
+{
+	clear: both;
+	width: 80%;
+	margin: 15% auto 0 auto;
+	position: relative;
+	background: #191919;
+}
+
+.rp-line
+{
+	background: #fff;
+	position: absolute;
+	top: 100px;
+	left: -30%;
+	width: 156%;
+	height: 2px;
+	z-index: -1;
+}
+
+.rp-number div
+{
+	text-align: center;
+	float: left;
+	width: 25%;
+	margin: 0 4.15%;
+	color: #fff;
+}
+
+.rp-number h1
+{
+	font-size: 110px;
+}
+
+.rp-number p
+{
+	font-size: 24px;
+}
+.rp-sponsor
+{
+	clear: both;
+	float: left;
+	width: 100%;
+	margin: 10% auto;
+	color: #fff;
+}
+
+.rp-sponsor p
+{
+	font-size: 50px;
+	margin: 5% 0;
+}
+
+.rp-sponsor div
+{
+	width: 25%;
+	margin: 0 4.15%;
+	float: left;
+	display: block;
+}
+
+.rp-sponsor img
+{
+	width: 100%;
+	display: block;
+}
